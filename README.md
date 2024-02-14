@@ -6,7 +6,11 @@ Este é um quiz básico sobre Harry Potter, implementado utilizando JavaScript. 
 
 ## Demonstração
 
-[Assista ao vídeo do projeto](link_do_video)
+[Assista ao vídeo do projeto]
+
+
+https://github.com/Nugguet/quiz_harry_potter/assets/32404276/3c9d2e58-d2a2-4900-b100-34869e2409e7
+
 
 Neste vídeo, você poderá ver uma demonstração do quiz em ação, incluindo a interface e como ele funciona.
 
