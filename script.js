@@ -115,7 +115,7 @@ for (const item of perguntasHarryPotter) {
   quizItem.querySelector('h3').textContent = item.pergunta;
 
   for (let i = 0; i < item.respostas.length; i++) {
-    const dt = quizItem.querySelector('dl dt').cloneNode(true);
+    const dt = quizItem.querySelector('ul li').cloneNode(true);
     dt.querySelector('span').textContent = item.respostas[i];
     dt.querySelector('input').setAttribute('name', 'pergunta-' + perguntasHarryPotter.indexOf(item));
     dt.querySelector('input').value = i;
@@ -143,9 +143,9 @@ for (const item of perguntasHarryPotter) {
       
       resultado.textContent = acertos.size + ' de ' + totalPerguntas;
     };
-    quizItem.querySelector('dl').appendChild(dt);
+    quizItem.querySelector('ul').appendChild(dt);
   }
 
-  quizItem.querySelector('dl dt').remove();
+  quizItem.querySelector('ul li').remove();
   quiz.appendChild(quizItem);
 }
