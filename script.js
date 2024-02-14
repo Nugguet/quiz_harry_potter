@@ -1,4 +1,4 @@
-const perguntasHarryPotter = [
+const perguntasHarryPotter = [ 
   {
     pergunta: "Qual é o nome completo do personagem principal da série Harry Potter?",
     respostas: [
