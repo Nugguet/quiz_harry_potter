@@ -137,7 +137,7 @@ for (const item of perguntasHarryPotter) {
 
       sumResposta = erros.size + acertos.size;
 
-      if(sumResposta === totalPerguntas-1){
+      if(sumResposta === totalPerguntas){
         acertosElement.style.display = 'block';
       }
       
