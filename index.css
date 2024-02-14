@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*,
+:root {
+  margin: 0;
+  padding: 0;
+  font-synthesis: none;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Inter', sans-serif;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(https://s7.orientaltrading.com/is/image/OrientalTrading/PDP_VIEWER_IMAGE_ZOOM$NOWA$/blue-harry-potter-magical-icons-peel-and-stick-wallpaper~14388611);
+}
+
+header {
+  margin-top: 34px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #334155;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#quiz {
+  counter-reset: quiz-item;
+}
+
+.quiz-item {
+  overflow: hidden;
+  margin-top: 24px;
+  border-radius: 6px;
+  border: 1px solid #081c38;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.quiz-item h3 {
+  gap: 12px;
+  display: flex;  
+  padding: 16px 20px;
+  align-items: center;
+  background-color: #c7daf3;
+}
+
+.quiz-item h3::before {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c4049;
+  content: counter(quiz-item);
+  counter-increment: quiz-item;
+}
+
+.quiz-item dl {
+  gap: 8px;
+  display: grid;
+  padding: 20px 24px;
+}
+
+.quiz-item dl dt {
+  gap: 8px;
+  display: flex;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #94a3b8;
+}
+
+input:checked {
+  border: 1px solid rgba(50, 140, 143, 0.8);
+}
+
+input:checked::before {
+  width: 10px;
+  height: 10px;
+  content: "";
+  border-radius: 50%;
+  background-color: rgba(50, 140, 143, 0.8);
+}
+
+main {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 1px solid #BFBFBF;
+  background-color: rgba(8, 128, 133, 0.8);
+  box-shadow: 0px 0px 10px 5px #aaaaaa;
+}
+
+#acertos {
+  width: 100%;
+  color: #fff;
+  display: none;
+  padding: 10px 0;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  background-color: #0c4049;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  color: #0c4049;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 0 20px 20px 20px;
+  }
+}

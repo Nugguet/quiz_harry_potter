@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Potter Quiz</title>
+  <script type="text/javascript" src="./index.js" defer=""></script>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <main id="conteudo">
+
+    <header>
+      <h1> Quiz Harry Potter, vamos ver se você é mesmo um fã. </h1>
+    </header>
+
+    <div id="quiz">
+      <template>
+        <div class="quiz-item">
+          <h3>
+            Perguntas
+          </h3>
+          <dl>
+            <dt>
+              <input type="radio" name="answer" value="0">
+              <span>
+                respostas
+              </span>
+            </dt>
+          </dl>
+        </div>
+      </template>
+    </div>
+    <div id="acertos">
+      <strong>Acertos</strong>
+      <span>0 de 10</span>
+    </div>
+    <script src="script.js"></script>
+  </main>
+  <footer>
+    Quiz básico usando JS com contagem de acertos e liberação do resultado após responder todas perguntas
+  </footer>
+</body>
+
+</html>
