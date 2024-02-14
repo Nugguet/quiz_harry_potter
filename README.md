@@ -6,7 +6,7 @@ Este é um quiz básico sobre **Harry Potter**, implementado utilizando JavaScri
 
 ## Demonstração
 
-[Assista ao vídeo do projeto](https://github.com/Nugguet/quiz_harry_potter/assets/32404276/3c9d2e58-d2a2-4900-b100-34869e2409e7)
+[Assista ao vídeo do projeto](https://github.com/Nugguet/quiz_harry_potter/assets/32404276/9f918564-a3aa-44e4-9c5f-37492f395e1e)
 
 Neste vídeo, você poderá ver uma demonstração do quiz em ação, incluindo a interface e como ele funciona.
 
